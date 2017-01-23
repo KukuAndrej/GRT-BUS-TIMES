@@ -1,3 +1,2 @@
-# GRT-BUS-TIMES
-# GRT-BUS-TIMES
-# GRT-BUS-TIMES
+Grand River Transit Bus Times
+
