@@ -21,7 +21,7 @@ then
 	echo "error: Stop not found" >&2; exit 3
 fi 
 sed -e 's/<[^>]*>/\\\n/g' ${tmpfile} > ${tmp} 
-egrep "^[^\\]" ${tmp} > ${tmpfile}
+egrep "^[0-9]" ${tmp} > ${tmpfile}
 count=0
 currentline=""
 while IFS= read -r line; do
