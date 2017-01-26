@@ -24,6 +24,7 @@ sed -e 's/<[^>]*>/\\\n/g' ${tmpfile} > ${tmp}
 egrep "^[0-9]" ${tmp} > ${tmpfile}
 count=0
 currentline=""
+echo -e "Time \t Route"
 while IFS= read -r line; do
 	if (( ${count} % 2 == 0 ))
 	then
