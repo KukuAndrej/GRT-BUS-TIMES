@@ -23,3 +23,11 @@ It takes 1 argument which is the bus stop number
 grt 2675
 ```
 This returns 2 colums labeled time and route with all current bus times
+
+**OR**
+
+It takes 2 argument where the first argument is the bus stop number and the second is a bus number
+```
+grt 2675 9
+```
+This returns 2 colums labeled time and route with all current bus times
